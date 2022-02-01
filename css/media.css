@@ -1,11 +1,23 @@
-@media (max-width: 1200px) {
-    /* your code should be written here  */
-}
-
 @media (max-width: 600px) {
-    /* your code should be written here  */
+    .container {
+        display: block;
+    }
+    .nav {
+        flex-direction: row;
+    }
+    .site-logo-bg {
+        display: none;
+    }
+    .site-logo-title {
+        margin: 9rem 5rem;
+    }
+    .grid-content-tile {
+        width: 45%;
+    }
 }
 
 @media (min-width: 1800px) {
-    /* your code should be written here */
+    .grid-content-tile {
+        width: 14%;
+    }
 }
